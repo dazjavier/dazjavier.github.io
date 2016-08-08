@@ -1,1 +1,100 @@
-@font-face{font-family:"CaslonNo337W01-SmallCapsIt";src:url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.eot");src:url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.eot?#iefix") format("embedded-opentype"),url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.woff2") format("woff2"),url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.woff") format("woff"),url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.ttf") format("truetype"),url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.svg#CaslonNo337W01-SmallCapsIt") format("svg")}body{background:url("../img/icons-asphalt.jpg") repeat;background-size:25%;font-family:Helvetica,Arial,sans-serif}.container{box-sizing:border-box;margin:auto;max-width:1024px;padding:15px}h1{color:#fff;font-size:82px;letter-spacing:-5px;margin:15% 0 0;text-transform:lowercase;transition:all .4s ease-in-out}h2{color:#fff;font-size:52px;letter-spacing:-3px;margin:0;opacity:.75;padding:0;}h2 span{color:#0095ff;font-family:CaslonNo337W01-SmallCapsIt}p{color:#fff;opacity:.5}.social{list-style:none;margin:20px 0;padding:0;}.social li{display:inline-block;}.social li:after{color:#fff;content:'|';margin:5px;opacity:.1}.social li:last-child:after{content:''}.social li a{color:#fff;font-weight:bold;text-decoration:none;text-shadow:0 1px 0 rgba(255,255,255,0.5)}.social li .dribbble{color:#ec4d8b}.social li .twitter{color:#55acee}.social li .github{color:#333}
+@font-face {
+  font-family: "CaslonNo337W01-SmallCapsIt";
+  src: url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.eot");
+  src: url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.woff") format("woff"), url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.svg#CaslonNo337W01-SmallCapsIt") format("svg");
+}
+body {
+  background-color: #fefefe;
+  font-family: 'Open sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.container {
+  box-sizing: border-box;
+  margin: 5% auto;
+  max-width: 1024px;
+  padding: 15px;
+}
+h1 {
+  color: rgba(0,0,0,0.8);
+  font-size: 82px;
+  letter-spacing: -5px;
+  margin: 0;
+  transition: all 0.4s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 62px;
+    text-align: center;
+  }
+}
+h2 {
+  color: rgba(0,0,0,0.75);
+  font-family: Montserrat, sans-serif;
+  font-size: 34px;
+  letter-spacing: -2px;
+  margin: 0;
+  opacity: 0.75;
+  padding: 0;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+h2 span {
+  color: #0095ff;
+  margin: 0 10px;
+  font-family: CaslonNo337W01-SmallCapsIt;
+}
+.shots {
+  max-width: 100%;
+  margin: 0;
+  padding: 0 !important;
+}
+.shots img {
+  display: inline-block;
+  list-style: none;
+  max-width: 100px;
+}
+p {
+  color: rgba(0,0,0,0.6);
+  font-size: 20px;
+  text-shadow: 0 1px 0 #fff;
+}
+@media screen and (max-width: 768px) {
+  p {
+    text-align: center;
+  }
+}
+p a {
+  color: rgba(0,0,0,0.9);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+p a:hover {
+  color: #0095ff !important;
+}
+@media screen and (max-width: 768px) {
+  p a {
+    text-align: center;
+  }
+}
+.dribbble {
+  color: #ea4c89 !important;
+}
+.github {
+  color: #333 !important;
+}
+.twitter {
+  color: #1da1f2 !important;
+}
+.mail {
+  color: #da4a38 !important;
+}
+.dashed {
+  text-decoration: line-through;
+  font-size: 17px;
+  opacity: 0.6;
+}

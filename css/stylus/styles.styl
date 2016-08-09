@@ -1,5 +1,5 @@
-//@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700';
-//@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
 @font-face {font-family: "CaslonNo337W01-SmallCapsIt";
     src: url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.eot");
     src: url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.eot?#iefix") format("embedded-opentype"),
@@ -30,6 +30,10 @@ h1
 	@media screen and (max-width: 768px)
     font-size 62px
     text-align center
+	@media screen and (max-width: 420px)
+		font-size 34px
+		letter-spacing -2px
+		text-align left
 h2
 	color rgba(0, 0, 0, .75)
 	font-family Montserrat, sans-serif
@@ -42,10 +46,16 @@ h2
 	@media screen and (max-width: 768px)
     font-size 32px
     text-align center
+  @media screen and (max-width: 420px)
+  	font-size 26px
+  	text-align left
 	span
 		color #0095FF
 		margin 0 10px
 		font-family CaslonNo337W01-SmallCapsIt
+		@media screen and (max-width: 420px)
+			display block
+			margin 0
 
 .shots
 	max-width 100%
@@ -63,6 +73,9 @@ p
 	text-shadow 0 1px 0 white
 	@media screen and (max-width: 768px)
     text-align center
+  @media screen and (max-width: 420px)
+  	font-size 24px
+  	text-align justify
 	a
 		color rgba(0, 0, 0, .9)
 		font-weight 600

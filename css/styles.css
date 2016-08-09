@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
 @font-face {
   font-family: "CaslonNo337W01-SmallCapsIt";
   src: url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.eot");
@@ -26,6 +28,13 @@ h1 {
     text-align: center;
   }
 }
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 34px;
+    letter-spacing: -2px;
+    text-align: left;
+  }
+}
 h2 {
   color: rgba(0,0,0,0.75);
   font-family: Montserrat, sans-serif;
@@ -42,10 +51,22 @@ h2 {
     text-align: center;
   }
 }
+@media screen and (max-width: 420px) {
+  h2 {
+    font-size: 26px;
+    text-align: left;
+  }
+}
 h2 span {
   color: #0095ff;
   margin: 0 10px;
   font-family: CaslonNo337W01-SmallCapsIt;
+}
+@media screen and (max-width: 420px) {
+  h2 span {
+    display: block;
+    margin: 0;
+  }
 }
 .shots {
   max-width: 100%;
@@ -65,6 +86,12 @@ p {
 @media screen and (max-width: 768px) {
   p {
     text-align: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  p {
+    font-size: 24px;
+    text-align: justify;
   }
 }
 p a {

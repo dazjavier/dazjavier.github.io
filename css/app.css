@@ -16,19 +16,23 @@ body {
 }
 #myCanvas {
   position: absolute;
-  display: block;
   top: 0;
   left: 0;
-  z-index: 0;
 }
 
 .container {
-  box-sizing: border-box;
-  margin: auto;
+  position: absolute;
   max-width: 1024px;
-  padding-top: 25vh;
-  z-index: 2;
+  padding: 15px;
+  height: 250px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
 }
+
 h1 {
   color: white;
   font-size: 82px;
@@ -44,7 +48,7 @@ h1 {
 }
 @media screen and (max-width: 420px) {
   h1 {
-    font-size: 34px;
+    font-size: 32px;
     letter-spacing: -2px;
     text-align: left;
   }

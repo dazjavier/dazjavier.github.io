@@ -5,18 +5,32 @@
   src: url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.eot");
   src: url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.woff") format("woff"), url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/ec928480b30d707ebac8bce0e5876565.svg#CaslonNo337W01-SmallCapsIt") format("svg");
 }
+
+html,
 body {
-  background-color: #fefefe;
+	color: white;
+  margin: 0;
+  background-image: url(https://hd.unsplash.com/photo-1449100840062-49e9aca7c8ec);
+  /*background-size: cover;*/
   font-family: 'Open sans', 'Helvetica Neue', Arial, sans-serif;
 }
+#myCanvas {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
 .container {
   box-sizing: border-box;
-  margin: 5% auto;
+  margin: auto;
   max-width: 1024px;
-  padding: 15px;
+  padding-top: 25vh;
+  z-index: 2;
 }
 h1 {
-  color: rgba(0,0,0,0.8);
+  color: white;
   font-size: 82px;
   letter-spacing: -5px;
   margin: 0;
@@ -36,12 +50,12 @@ h1 {
   }
 }
 h2 {
-  color: rgba(0,0,0,0.75);
+  color: white;
   font-family: Montserrat, sans-serif;
   font-size: 34px;
   letter-spacing: -2px;
   margin: 0;
-  opacity: 0.75;
+  opacity: 0.9;
   padding: 0;
   text-transform: uppercase;
 }
@@ -58,7 +72,7 @@ h2 {
   }
 }
 h2 span {
-  color: #0095ff;
+  color: #3a9148;
   margin: 0 10px;
   font-family: CaslonNo337W01-SmallCapsIt;
 }
@@ -68,20 +82,10 @@ h2 span {
     margin: 0;
   }
 }
-.shots {
-  max-width: 100%;
-  margin: 0;
-  padding: 0 !important;
-}
-.shots img {
-  display: inline-block;
-  list-style: none;
-  max-width: 100px;
-}
 p {
-  color: rgba(0,0,0,0.6);
+  color: white;
   font-size: 20px;
-  text-shadow: 0 1px 0 #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .5);
 }
 @media screen and (max-width: 768px) {
   p {
@@ -112,7 +116,7 @@ p a:hover {
   color: #ea4c89 !important;
 }
 .github {
-  color: #333 !important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 .twitter {
   color: #1da1f2 !important;

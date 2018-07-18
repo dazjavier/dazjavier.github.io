@@ -1,0 +1,81 @@
+.App {
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  align-items: center;
+  color: #00f;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  user-select: none;
+  width: 100%;
+}
+
+.App-particles-wrapper {
+  height: 100%;
+  opacity: .25;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.App-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 6em;
+  letter-spacing: -.35rem;
+  margin: 0;
+}
+
+.App-subtitle {
+  color: #1b1b1b;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.App-paragraph {
+  color: #1b1b1b;
+  font-size: 1.5rem;
+  margin: .5rem 0 4rem;
+}
+
+.App-social {
+  z-index: 3;
+}
+
+.App-social a {
+  margin-right: 1rem;
+}
+
+.App-social a:last-child {
+  margin-right: 0;
+}
+
+.App-social a svg {
+  fill: #00f !important;
+  height: 48px;
+  width: 48px;
+}
+
+@media screen and (max-width: 960px) {
+  .App-title {
+    font-size: 3em;
+    line-height: 3.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .App-subtitle {
+    font-size: 1.5rem;
+  }
+  .App-paragraph {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .App-social a svg {
+    height: 32px;
+    width: 32px;
+  }
+}
